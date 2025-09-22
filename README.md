@@ -158,7 +158,7 @@ croot
 
 **Prepare the device-specific code**
 * Note: This will download your device’s [device specific configuration](https://github.com/LineageOS/android_device_motorola_fogos) and [kernel](https://github.com/LineageOS/android_kernel_motorola_sm6375)
-
+* There's another manual method to do this but go with official
 ```bash
 breakfast fogos
 ```
