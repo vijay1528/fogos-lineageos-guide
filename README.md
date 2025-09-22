@@ -13,7 +13,7 @@
 # Requirements
 
 * Motorola moto g45/g34
-* Linux prefer 22.04 LTS
+* Ubunbtu Linux prefer 22.04 LTS or newer
 * +64gb ram, +300gb storage nvme/ssd, CPU cores(prefer more than your age but have minimum 4 cores, more cores more speed)
 
 * And most important use common sense, u can use chatGPT or any model u want, if u need help with linux commands.
@@ -33,17 +33,23 @@ sudo apt update && sudo apt install -y autoconf automake bsdmainutils build-esse
 
 **LineageOS Dependencies**
 ```bash
-sudo apt update
-sudo apt install bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf \
-imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev libsdl1.2-dev \
-libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools x11proto-core-dev \
-xsltproc zip zlib1g-dev openjdk-11-jdk repo
+sudo apt update && sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
+```
+
+**For Ubuntu 23.10 (mantic) or newer, install libncurses5 from 23.04 (lunar) as follows**
+```bash
+wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2_amd64.deb && sudo dpkg -i libtinfo5_6.3-2_amd64.deb && rm -f libtinfo5_6.3-2_amd64.deb
+wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2_amd64.deb && sudo dpkg -i libncurses5_6.3-2_amd64.deb && rm -f libncurses5_6.3-2_amd64.deb
+```
+
+**While for Ubuntu versions older than 23.10 (mantic), like 22.04 (mine)**
+```bash
+sudo apt update && sudo apt install lib32ncurses5-dev libncurses5 libncurses5-dev
 ```
 
 **Java**
 ```bash
-sudo update-alternatives --config java
-sudo update-alternatives --config javac
+sudo apt update && sudo apt install openjdk-11-jdk
 ```
 
 **Install Python**
@@ -85,8 +91,6 @@ git config --global user.name "YourUserNameNotMine"
 * replace you@example.com and YourUserNameNotMine with your github email and username
 
 ```bash
-sudo apt update
-sudo apt install git-lfs
 git lfs install
 ```
 ```bash
@@ -102,8 +106,6 @@ echo 'export USE_CCACHE=1' >> ~/.bashrc
 echo 'export CCACHE_EXEC=/usr/bin/ccache' >> ~/.bashrc
 source ~/.bashrc
 
-sudo apt update
-sudo apt install ccache
 ccache -M 50G
 ```
 
