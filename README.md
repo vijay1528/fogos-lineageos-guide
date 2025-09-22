@@ -122,8 +122,11 @@ Enable color display in this user account (y/N)? type `y` then `enter`
 
 **Download the source code**
 * Note: if you are on vps use tmux coz this will take time
+
 **tmux new -s session_name** for new session where `session_name` can be your choice for example `fogos`
+  
 **Ctrl + b, then press d** for deattachment, To leave tmux but keep it running in the background
+
 **tmux attach -t session_name** for reattachment
 
 ```bash
