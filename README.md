@@ -4,6 +4,8 @@
 * This guide follows LineageOS official [guide](https://wiki.lineageos.org/devices/fogos/build/variant2)
 * I'm creating this to make rom building more user friendly
 
+* You can use this guide for other official devices too, will just need to tweak `Initialize the LineageOS source repository` & `Get/Extract proprietary blobs` section according to your device
+
 ## Disclaimer / Note
 * Look i'm not responsible for bricked devices, dead phone or your girlfriend ran away with someone.
 * You are going through this guide bcoz u wanna use your free time to try building custom rom for your OWN device repeat own device.
@@ -182,7 +184,7 @@ ls
 ```bash
 curl https://rclone.org/install.sh | sudo bash
 ```
-**Configure Mega/Gdrive or you can use GFdrive too lol**
+**Configure Mega/Gdrive**
 ```bash
 rclone config
 ```
