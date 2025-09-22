@@ -16,7 +16,7 @@
 * Linux prefer 22.04 LTS
 * +64gb ram, +300gb storage nvme/ssd, CPU cores(prefer more than your age but have minimum 4 cores, more cores more speed)
 
-* And most important use common sense, u can use chatGPT/girlfriendGPT or any model u want, if u need help with linux commands.
+* And most important use common sense, u can use chatGPT or any model u want, if u need help with linux commands.
 
 ## LFG, go through step by step
 
