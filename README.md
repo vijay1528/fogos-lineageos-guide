@@ -18,7 +18,7 @@
 
 * And most important use common sense, u can use chatGPT or any model u want, if u need help with linux commands.
 
-## LFG, go through step by step
+## Basic configuration & setup
 
 **Update System Packages**
 ```bash
@@ -82,7 +82,7 @@ source ~/.profile
 git config --global user.email "you@example.com"
 git config --global user.name "YourUserNameNotMine"
 ```
-* replace you@example.com and YourUserNameNotMine with yours
+* replace you@example.com and YourUserNameNotMine with your github email and username
 
 ```bash
 sudo apt update
@@ -107,7 +107,7 @@ sudo apt install ccache
 ccache -M 50G
 ```
 
-**Initialize the LineageOS source repository**
+## Initialize the LineageOS source repository
 * Note: this is for lineage ver 22.2
 
 ```bash
@@ -171,7 +171,7 @@ cd ~/android/lineage/out/target/product/fogos
 ls
 ```
 
-# You can see the flashable zip and .imgs
+**You can see the flashable zip and .imgs**
 
 ## Download the zip and .imgs if u are on vps
 * Note: make sure to detach tmux if u are inside
