@@ -4,13 +4,13 @@
 * This guide follows LineageOS official [guide](https://wiki.lineageos.org/devices/fogos/build/variant2)
 * I'm creating this to make rom building more user friendly
 
-* You can use this guide for other official devices too, will just need to tweak `Initialize the LineageOS source repository` & `Get/Extract proprietary blobs` section according to your device
+* You can use this guide for other official devices too, will just need to tweak `Initialize the LineageOS source repository` & `Get/Extract proprietary blobs` & `codename` according to your device. check your device's official lineageos guide for more clearance
 
-## Disclaimer / Note
-* Look i'm not responsible for bricked devices, dead phone or your girlfriend ran away with someone.
-* You are going through this guide bcoz u wanna use your free time to try building custom rom for your OWN device repeat own device.
-* Your warranty will be void if you fuck with your device or its software.
-* If i have missed some linux commands/dependencies, spelling mistakes then correct yourself and can check official guide.
+## Disclaimer / Note:-
+* **Look i'm not responsible for bricked devices, dead phone or your girlfriend ran away with someone.**
+* **You are going through this guide bcoz u wanna use your free time to try building custom rom for your `OWN` device repeat your `own` device.**
+* **Your warranty will be void if you fuck with your device or its software haha..**
+* **If i have missed some linux commands/dependencies, spelling mistakes then correct yourself or u can check lineage official guide.**
 
 # Requirements
 
