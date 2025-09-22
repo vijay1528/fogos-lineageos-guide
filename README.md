@@ -8,7 +8,7 @@
 * Look i'm not responsible for bricked devices, dead phone or your girlfriend ran away with someone.
 * You are going through this guide bcoz u wanna use your free time to try building custom rom for your OWN device repeat own device.
 * Your warranty will be void if you fuck with your device or its software.
-* If i have missed some linux commands/dependencies, spelling mistakes then correct yourself and can check official guide
+* If i have missed some linux commands/dependencies, spelling mistakes then correct yourself and can check official guide.
 
 # Requirements
 
@@ -146,7 +146,7 @@ croot
 ```
 
 **Prepare the device-specific code**
-* Note: This will download your device’s [device specific configuration](https://github.com/LineageOS/android_device_motorola_fogos) and [kernel]https://github.com/LineageOS/android_kernel_motorola_sm6375
+* Note: This will download your device’s [device specific configuration](https://github.com/LineageOS/android_device_motorola_fogos) and [kernel](https://github.com/LineageOS/android_kernel_motorola_sm6375)
 
 ```bash
 breakfast fogos
@@ -208,7 +208,7 @@ ls
 
 ## Install the build
 
-**I need to explain this too huh?**
+## I need to explain this too huh? Good bye :)
 
 
 
