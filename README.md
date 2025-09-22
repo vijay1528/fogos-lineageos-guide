@@ -128,7 +128,7 @@ repo sync
 
 **Get/Extract proprietary blobs**
 * Note: you can go through official methods from [LineageOS](https://wiki.lineageos.org/devices/fogos/build/variant2/#extract-proprietary-blobs)
-* But in this guide im using [fogos](https://github.com/TheMuppets/proprietary_vendor_motorola_fogos) and [sm6375-common](https://github.com/TheMuppets/proprietary_vendor_motorola_sm6375-common) managed by his highness mikeNG
+* But in this guide im using [fogos](https://github.com/TheMuppets/proprietary_vendor_motorola_fogos) and [sm6375-common](https://github.com/TheMuppets/proprietary_vendor_motorola_sm6375-common) managed by his highness [mikeNG](https://github.com/mikeNG)
 
 ```bash
 mkdir -p ~/android/lineage/vendor/motorola
@@ -212,7 +212,9 @@ ls
 
 ## Install the build
 
-## I need to explain this too huh? Good bye :)
+## I need to explain this too huh? Fuck Around And Found Out :)
+
+## Credits: All LineageOS Devs, specifically [mikeNG](https://github.com/mikeNG), Moto G45/G34, My asus vivobook/vivo y12, Me and all the universe hahaha....
 
 
 
