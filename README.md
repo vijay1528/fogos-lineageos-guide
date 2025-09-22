@@ -18,7 +18,7 @@
 * Ubunbtu Linux prefer 22.04 LTS or newer
 * +64gb ram, +300gb storage nvme/ssd, CPU cores(prefer more than your age but have minimum 4 cores, more cores more speed)
 
-* And most important use common sense, u can use chatGPT or any model u want, if u need help with linux commands.
+* And most important use common sense, have basic knowledge of linux commands and its usecase
 
 ## Basic configuration & setup
 
@@ -121,7 +121,10 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs 
 Enable color display in this user account (y/N)? type `y` then `enter`
 
 **Download the source code**
-* Note: if you are on vps use tmux coz this will take time, u can use chatgpt for its usecase dont ask me
+* Note: if you are on vps use tmux coz this will take time
+**tmux new -s session_name** for new session where `session_name` can be your choice for example `fogos`
+**Ctrl + b, then press d** for deattachment, To leave tmux but keep it running in the background
+**tmux attach -t session_name** for reattachment
 
 ```bash
 repo sync
@@ -190,7 +193,7 @@ curl https://rclone.org/install.sh | sudo bash
 rclone config
 ```
 
-* configure your mega/gdrive or other cloud storage, i will be using mega (in rclone u will need mail and password and make sure to disable 2fa on mega account and create a folder called Roms)
+* configure your mega/gdrive or other cloud storage using common sense, i will be using mega (in rclone u will need mail and password and make sure to disable 2fa on mega account and create a folder called Roms)
 
 **Install MEGA**
 ```bash
@@ -215,7 +218,7 @@ ls
 
 ## I need to explain this too huh? Fuck Around And Found Out :)
 
-## Credits: All LineageOS Devs, specifically [mikeNG](https://github.com/mikeNG), Moto G45/G34, My asus vivobook/vivo y12, Me and all the universe hahaha....
+## Credits: All LineageOS Devs, specifically [mikeNG](https://github.com/mikeNG), Moto G45/G34, My asus vivobook/moto g45/vivo y12, & Me
 
 
 
