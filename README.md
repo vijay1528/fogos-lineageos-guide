@@ -20,6 +20,8 @@
 
 * And most important use common sense, have basic knowledge of linux commands and their usecases
 
+## READ ALL THE WORDS AND LINES CAREFULLY
+
 ## Basic configuration & setup
 
 **Update System Packages**
@@ -40,12 +42,14 @@ sudo apt update && sudo apt install bc bison build-essential ccache curl flex g+
 
 **For Ubuntu 23.10 (mantic) or newer, install libncurses5 from 23.04 (lunar) as follows**
 ```bash
+# use only if u are on ubuntu 23 or newer
 wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2_amd64.deb && sudo dpkg -i libtinfo5_6.3-2_amd64.deb && rm -f libtinfo5_6.3-2_amd64.deb
 wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2_amd64.deb && sudo dpkg -i libncurses5_6.3-2_amd64.deb && rm -f libncurses5_6.3-2_amd64.deb
 ```
 
 **While for Ubuntu versions older than 23.10 (mantic), like 22.04 (mine)**
 ```bash
+# for ubuntu 22
 sudo apt update && sudo apt install lib32ncurses5-dev libncurses5 libncurses5-dev -y
 ```
 
@@ -167,9 +171,12 @@ breakfast fogos
 * Note: this will take time if u are on vps use tmux
 
 ```bash
+# only if u are on baremetal/dedicated vps
 croot
 brunch fogos
 ```
+
+Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 40 core vps so i have used -j28, change `-jn` according to your cpu cores
 
 ## Find the zip and .imgs
 
