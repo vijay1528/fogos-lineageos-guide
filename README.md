@@ -18,7 +18,7 @@
 * +64gb ram, +400gb storage nvme/ssd, +12 CPU cores (more cores, more speed)
 * If u are going for VPS then prefer Baremetal/dedicated VPS
 
-* And most important use common sense, have basic knowledge of linux commands and its usecase
+* And most important use common sense, have basic knowledge of linux commands and their usecases
 
 ## Basic configuration & setup
 
