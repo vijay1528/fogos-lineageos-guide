@@ -14,9 +14,9 @@
 
 # Requirements
 
-* Motorola moto g45/g34
 * Ubunbtu Linux prefer 22.04 LTS or newer
-* +64gb ram, +300gb storage nvme/ssd, CPU cores(prefer more than your age but have minimum 4 cores, more cores more speed)
+* +64gb ram, +400gb storage nvme/ssd, +12 CPU cores (more cores, more speed)
+* If u are going for VPS then prefer Baremetal/dedicated VPS
 
 * And most important use common sense, have basic knowledge of linux commands and its usecase
 
