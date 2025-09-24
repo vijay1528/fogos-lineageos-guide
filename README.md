@@ -239,12 +239,11 @@ ls
 
 ## Unlock your phone's bootloader and follow official lineageOS installation [guide](https://wiki.lineageos.org/devices/fogos/install/variant2)
 
-
-
-
-
-
-
+# Some screenshots
+<img width="1919" height="1016" alt="Screenshot 2025-09-24 194055" src="https://github.com/user-attachments/assets/121e29de-487a-41a7-ba4b-ae84e8741578" />
+<img width="1919" height="1021" alt="Screenshot 2025-09-24 194156" src="https://github.com/user-attachments/assets/d2828178-aace-44af-b3aa-7558633f5ffb" />
+<img width="1919" height="953" alt="Screenshot 2025-09-24 195618" src="https://github.com/user-attachments/assets/04d72b9d-8a1f-49fa-a3dd-63a573c53958" />
+<img width="1919" height="975" alt="Screenshot 2025-09-24 195837" src="https://github.com/user-attachments/assets/1dba116e-5ba8-4be8-a1b3-2a761e305dd1" />
 
 
 
