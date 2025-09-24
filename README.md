@@ -1,12 +1,12 @@
 ![image](https://github.com/user-attachments/assets/8ca0811e-b031-4fe4-8ded-b322b9fdb7c7)
 
-## Build LineageOS For Moto g45/g34 (fogos)
+# Build LineageOS For Moto g45/g34 (fogos)
 * This guide follows LineageOS official [guide](https://wiki.lineageos.org/devices/fogos/build/variant2)
 * I'm creating this to make rom building more user friendly
 
 * You can use this guide for other official devices too, will just need to tweak `Initialize the LineageOS source repository` & `Get/Extract proprietary blobs` & `codename` according to your device. check your device's official lineageos guide for more clearance
 
-## Disclaimer / Note:-
+# Disclaimer / Note:-
 * **Look i'm not responsible for bricked devices, dead phone or your girlfriend ran away with someone.**
 * **You are going through this guide bcoz u wanna use your free time to try building custom rom for your `OWN` device repeat your `own` device.**
 * **Your warranty will be void if you fuck with your device or its software haha..**
@@ -20,7 +20,7 @@
 
 * Note: these are just recommendations
 
-## READ ALL THE WORDS AND LINES CAREFULLY
+# READ ALL THE WORDS AND LINES CAREFULLY
 
 ## Basic configuration & setup
 
@@ -170,7 +170,7 @@ croot
 breakfast fogos
 ```
 
-## Start the build
+# Start the build
 * Note: this will take time if u are on vps use tmux
 
 ```bash
@@ -189,7 +189,7 @@ max_jobs_ram = 62 / 5 ≈ 12
 
 So using -j12 or even -j11 is safe
 
-## Find the zip and .imgs
+# Find the zip and .imgs
 
 ```bash
 cd $OUT
@@ -202,7 +202,7 @@ ls
 
 **You can see the flashable zip and .imgs**
 
-## Download the zip and .imgs if u are on vps
+# Download the zip and .imgs if u are on vps
 * Note: make sure to detach tmux if u are inside
 
 **Install rclone**
