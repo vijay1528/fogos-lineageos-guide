@@ -15,10 +15,10 @@
 # Requirements
 
 * Ubunbtu Linux prefer 22.04 LTS or newer
-* +64gb ram, +400gb storage nvme/ssd, +12 CPU cores (more cores, more speed)
+* +62gb ram, +400gb storage nvme/ssd, +12 CPU cores
 * If u are going for VPS then prefer Baremetal/dedicated VPS
 
-* And most important use common sense, have basic knowledge of linux commands and their usecases
+* Note: these are just recommendations more cores/ram means more fast rom building
 
 ## READ ALL THE WORDS AND LINES CAREFULLY
 
