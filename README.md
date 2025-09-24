@@ -18,7 +18,7 @@
 * +62gb ram, +400gb storage nvme/ssd, +12 CPU cores
 * If u are going for VPS then prefer Baremetal/dedicated VPS
 
-* Note: these are just recommendations more cores/ram means more fast rom building
+* Note: these are just recommendations
 
 ## READ ALL THE WORDS AND LINES CAREFULLY
 
