@@ -179,7 +179,7 @@ croot
 brunch fogos
 ```
 
-Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 16core 62gb ram vps so i have used -j20, change `-jn` according to your setup
+Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 16core 62gb ram vps so i have used -j19, change `-jn` according to your setup
 
 max_jobs_cpu = 16 × 1.5 = 24
 
