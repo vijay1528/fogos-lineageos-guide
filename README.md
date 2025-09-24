@@ -235,9 +235,9 @@ ls
   ```
   replace `lineage-*.zip` with your zip (full name) same for boot.img dtbo.img vendor_boot.img
 
-## Install the build
+# Install the build
 
-# Unlock your phone's bootloader and follow official lineageOS installation [guide](https://wiki.lineageos.org/devices/fogos/install/variant2)
+## Unlock your phone's bootloader and follow official lineageOS installation [guide](https://wiki.lineageos.org/devices/fogos/install/variant2)
 
 
 
