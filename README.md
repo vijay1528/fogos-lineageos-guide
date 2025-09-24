@@ -237,7 +237,7 @@ ls
 
 ## Install the build
 
-## I need to explain this too huh? Fuck Around And Found Out :)
+# Unlock your phone's bootloader and follow official lineageOS installation [guide](https://wiki.lineageos.org/devices/fogos/install/variant2)
 
 
 
