@@ -179,15 +179,15 @@ croot
 brunch fogos
 ```
 
-Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 6core 41gb vps so i have used -j8, change `-jn` according to your setup
+Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 16core 62gb ram vps so i have used -j20, change `-jn` according to your setup
 
-max_jobs_cpu = 6 × 1.5 = 9
+max_jobs_cpu = 16 × 1.5 = 24
 
-max_jobs_ram = 41 / 3 ≈ 13
+max_jobs_ram = 62 / 3 ≈ 20
 
--jN = min(9, 13) = 9 → safe
+-jN = min(24, 20) = 20 → safe
 
-So using -j8 or -j9 is safe
+So using -j19 or -j20 is safe
 
 ## Find the zip and .imgs
 
