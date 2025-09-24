@@ -179,13 +179,13 @@ croot
 brunch fogos
 ```
 
-Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 16core 62gb ram vps so i have used -j12, change `-jn` according to your setup
+Note: if u are on non dedicated vps then use ``croot && mka bacon -jn`` where ``-jn`` defines parallel jobs, im on 12core 62gb ram vps so i have used -j12, change `-jn` according to your setup
 
-max_jobs_cpu = 16 × 1.5 = 24
+max_jobs_cpu = 12 × 1.5 = 18
 
 max_jobs_ram = 62 / 5 ≈ 12
 
--jN = min(24, 12) = 12 → safe
+-jN = min(18, 12) = 12 → safe
 
 So using -j12 or even -j11 is safe
 
