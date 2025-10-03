@@ -64,26 +64,18 @@ sudo apt install python3 python3-pip python3-venv python3-dev -y
 sudo apt install python-is-python3
 ```
 
-**Create the directories**
+**Setup repo command**
 ```bash
 mkdir -p ~/bin
-mkdir -p ~/android/lineage
-```
 
-**Install the repo command**
-```bash
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
-```
 
-**Put the ~/bin directory in your path of execution**
-```bash
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-```
-```bash
+
 # update your environment
 source ~/.profile
 ```
@@ -93,15 +85,11 @@ source ~/.profile
 # Do not remove quotes
 git config --global user.email "you@example.com"
 git config --global user.name "YourUserNameNotMine"
-```
-* replace you@example.com and YourUserNameNotMine with your github email and username
 
-```bash
 git lfs install
-```
-```bash
 git config --global trailer.changeid.key "Change-Id"
 ```
+* replace you@example.com and YourUserNameNotMine with your github email and username
 
 **Turn on caching to speed up build**
 ```bash
@@ -122,6 +110,7 @@ ccache -o compression=true
 * Note: this is for lineage ver 22.2
 
 ```bash
+mkdir -p ~/android/lineage
 cd ~/android/lineage
 repo init -u https://github.com/LineageOS/android.git -b lineage-22.2 --git-lfs --no-clone-bundle
 ```
