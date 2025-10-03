@@ -37,7 +37,7 @@ sudo apt update && sudo apt install -y autoconf automake bsdmainutils build-esse
 
 **LineageOS Dependencies**
 ```bash
-sudo apt update && sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev -y
+sudo apt update && sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev libc6-dev-i386 libgl1-mesa-dev fontconfig gh cmake patchelf re2c texinfo libtinfo5 libexpat1-dev libgmp-dev libmpc-dev libmpfr-dev liblzma-dev ninja-build -y
 ```
 
 **For Ubuntu 23.10 (mantic) or newer, install libncurses5 from 23.04 (lunar) as follows**
