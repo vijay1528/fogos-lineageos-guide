@@ -24,14 +24,11 @@
 
 ## Basic configuration & setup
 
-**Update System Packages**
+**Update System Packages & Install General Utilities and Tools**
 ```bash
 apt update && apt install -y sudo
 sudo apt update && sudo apt upgrade -y
-```
 
-**Install General Utilities and Tools**
-```bash
 sudo apt update && sudo apt install -y autoconf automake bsdmainutils build-essential clang curl ffmpeg gcc git htop jq libffi-dev libgbm1 libjpeg-dev libleveldb-dev libopenblas-dev libsqlite3-dev libssl-dev lsof lz4 make nano ncdu nvme-cli pkg-config screen tar tmux unzip wget zlib1g-dev iptables -y
 ```
 
@@ -53,13 +50,10 @@ wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.3-2
 sudo apt update && sudo apt install lib32ncurses5-dev libncurses5 libncurses5-dev -y
 ```
 
-**Java**
+**Install Java & Python**
 ```bash
 sudo apt update && sudo apt install openjdk-11-jdk -y
-```
 
-**Install Python**
-```bash
 sudo apt install python3 python3-pip python3-venv python3-dev -y
 sudo apt install python-is-python3
 ```
