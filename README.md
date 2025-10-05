@@ -188,9 +188,9 @@ ls
 # Download the zip and .imgs if u are on vps
 * Note: make sure to detach tmux if u are inside
 
-**Install rclone**
+**Install rclone & MEGA**
 ```bash
-curl https://rclone.org/install.sh | sudo bash
+curl https://rclone.org/install.sh | sudo bash && sudo apt install megatools
 ```
 **Configure Mega/Gdrive**
 ```bash
@@ -198,12 +198,6 @@ rclone config
 ```
 
 * configure your mega/gdrive or other cloud storage using common sense, i will be using mega (in rclone u will need mail and password and make sure to disable 2fa on mega account and create a folder called Roms)
-
-**Install MEGA**
-```bash
-sudo apt install megatools
-```
-
 * make sure have configured mega in rclone properly
 
 **Make sure ur inside right folder**
@@ -214,7 +208,7 @@ ls
 
 **Upload to MEGA**
   ```bash
-  rclone copy lineage-*.zip mega:/Roms/
+  rclone copy -P lineage-*.zip mega:/Roms/
   ```
   replace `lineage-*.zip` with your zip (full name) same for boot.img dtbo.img vendor_boot.img
 
